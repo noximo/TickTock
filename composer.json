@@ -1,0 +1,22 @@
+{
+  "name": "noximo/tick-tock",
+  "description": "Unobtrusive PHP timer library",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "noximo",
+      "email": "pospisilt@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "noximo\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.3",
+    "webmozart/path-util": "^2.3"
+  }
+}
